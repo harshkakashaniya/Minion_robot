@@ -46,7 +46,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 6. Finally open the Jupyter noetbook :
 
 ```
-jupyter netebook
+jupyter notebook
 ```
 
 And select the appropiate file to train or test the model.
