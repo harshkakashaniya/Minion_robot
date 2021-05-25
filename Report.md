@@ -58,6 +58,7 @@ So if a eposide goes for 1000 time steps that means our network will update 250 
 
 ### Single network vs Two networks.
 I Started with a single network which was used for updating the weights and same network was used to compute the action. But that network did not perform to the expected level and best score over an average of 100 episodes for single network ever after 2000 episodes was approx. 3.
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training_one_network.png)
 
 ### Adding an hidden layer in the architecture.
 I added one more hidden layer of 64 neurons. But I did not see much improvement. Inially it learned faster but still final result was a bit less than 2 hidden layer network.
