@@ -65,3 +65,14 @@ I added one more hidden layer of 64 neurons. But I did not see much improvement.
 
 ![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training-3%20layers.png)
 
+## Final Results :
+
+### Our Average score vs Episodes.
+
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training.png)
+
+### Our Results of training.
+
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/Episodes.png)
+
+We solved the game with +13 bananas on an average of 100 episodes in XX episodes.
