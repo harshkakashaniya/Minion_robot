@@ -80,6 +80,9 @@ I added one more hidden layer of 64 neurons. But I saw some improvement. It was 
 
 ### Ideas to improve on the results.
 1.We can slowly make network bigger and bigger till it starts overfitting.
+
 2. We can also try to implement the same approach with Policy based approach rather than value based solution.
+
 3. Also this will be a good project to try with actor critic with will decrease our variance and will improve the speed of learning.
+
 4. If we do not have constraint of computation I will also like to try genetic algorithm and see if we can get better results I doubt it will be the case but it is a good idea to try and understand the results.
