@@ -75,7 +75,7 @@ I added one more hidden layer of 64 neurons. But I saw some improvement. It was 
 
 ![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/4_layer_network.png)
 
-We solved the game with +13 bananas on an average of 100 episodes in 388 episodes.
+**We solved the game with +13 bananas on an average of 100 episodes in 388 episodes.**
 
 
 ### Ideas to improve on the results.
