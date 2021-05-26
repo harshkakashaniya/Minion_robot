@@ -55,24 +55,31 @@ Decay factor = 0.995
 We save every training step in out reply buffer and after every 4 episodes after minimum 64 steps we take randomly 64 samples and train the network.
 So if a eposide goes for 1000 time steps that means our network will update 250 times in an episode.
 
+## Final Results :
+
+### Result with 2 Hidden layers:
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/3_layer_network_1.png)
+
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/3_layer_network_2.png)
+
 
 ### Single network vs Two networks.
-I Started with a single network which was used for updating the weights and same network was used to compute the action. But that network did not perform to the expected level and best score over an average of 100 episodes for single network ever after 2000 episodes was approx. 3.
+I Started with a single network which was used for updating the weights and same network was used to compute the action. But that network did not perform to the expected level and best score over an average of 100 episodes for single network ever after 2000 episodes was approx 3 bananas. 
+
 ![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training_one_network.png)
 
 ### Adding an hidden layer in the architecture.
-I added one more hidden layer of 64 neurons. But I did not see much improvement. Inially it learned faster but still final result was a bit less than 2 hidden layer network.
+I added one more hidden layer of 64 neurons. But I saw some improvement. It was learning quicker as we can see in the results.
 
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training-3%20layers.png)
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/4_layer_network_graph.png)
 
-## Final Results :
+![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/4_layer_network.png)
 
-### Our Average score vs Episodes.
+We solved the game with +13 bananas on an average of 100 episodes in 388 episodes.
 
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/training.png)
 
-### Our Results of training.
-
-![](https://github.com/harshkakashaniya/Minion_robot/blob/main/Banana_navigation/Episodes.png)
-
-We solved the game with +13 bananas on an average of 100 episodes in XX episodes.
+### Ideas to improve on the results.
+1.We can slowly make network bigger and bigger till it starts overfitting.
+2. We can also try to implement the same approach with Policy based approach rather than value based solution.
+3. Also this will be a good project to try with actor critic with will decrease our variance and will improve the speed of learning.
+4. If we do not have constraint of computation I will also like to try genetic algorithm and see if we can get better results I doubt it will be the case but it is a good idea to try and understand the results.
